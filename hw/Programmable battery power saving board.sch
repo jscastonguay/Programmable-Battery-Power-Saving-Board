@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Programmable battery power saving board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,8 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ds3231s
-LIBS:PowerManagementBoard-cache
+LIBS:Programmable battery power saving board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -122,7 +122,7 @@ F 3 "" H 3700 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery BT1
+L Battery-RESCUE-Programmable_battery_power_saving_board BT1
 U 1 1 58938CBB
 P 7850 2400
 F 0 "BT1" H 7950 2450 50  0000 L CNN
